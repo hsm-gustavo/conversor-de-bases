@@ -1,4 +1,3 @@
-from tkinter import *
 from string import ascii_uppercase
 
 def any_to_dec(number, origin=10):
@@ -32,7 +31,7 @@ def any_to_dec(number, origin=10):
             digit = hex[digit]
         new_num += int(digit) * (origin ** index)
 
-    return new_num
+    return str(new_num)
     
 
 def dec_to_any(number, destiny=10):
@@ -94,7 +93,7 @@ def main():
 
     result = any_to_any(number, origin, destiny)
 
-    print(result)
+    print(f"Result: {result}")
 
 if __name__ == "__main__":
     try:
