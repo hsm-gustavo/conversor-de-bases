@@ -8,8 +8,8 @@ Converte um número de uma base qualquer para qualquer outra base.
 $ python3 main.py
 ```
 
-O programa inicia pedindo três inputs do usuário, que serão usados para a conversão
-Como o exemplo abaixo:
+O programa inicia pedindo três inputs do usuário, que serão usados para a conversão,
+como o exemplo abaixo:
 
 ```
 What number you wish to convert? (CTRL+C to quit)
