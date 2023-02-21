@@ -24,7 +24,7 @@ def any_to_dec(number, origin=10):
         ans = new_int + new_dec
         return str(ans)
     
-    new_num = float()
+    new_num = int()
 
     for index, digit in enumerate(number[::-1]):
         if digit.isalpha():
@@ -100,5 +100,5 @@ if __name__ == "__main__":
         while True:
             main()
     except KeyboardInterrupt:
-        print("Goodbye!")
+        print("\nGoodbye!")
     
